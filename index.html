@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <main>
+        <div class="box">
+            <form>
+                <div>
+                    <p>Баланс</p>
+                    <input type="text" class="balance" value="">
+                </div>
+                <div>
+                    <p>Пиво</p>
+                    <input type="text" class="startBeer" value="">
+                </div>
+                <div>
+                    <p>Вино</p>
+                    <input type="text" class="startVine" value="">
+                </div>
+                <div>
+                    <p>Пепсі</p>
+                    <input type="text" class="startPepsi" value="">
+                </div>
+            </form>
+        </div>
+        <div class="box">
+            <form>
+                <div>
+                    <p>Кількість</p>
+                    <input type="number" id="number">
+                </div>
+                <div class="radioBox">
+                    <div>
+                        <input type="radio" id="beer" name="goods" value="beer">
+                        <label for="beer">Пиво</label><br>
+                    </div>
+                    <div>
+                        <input type="radio" id="vine" name="goods" value="vine">
+                        <label for="vine">Вино</label><br>
+                    </div>
+                    <div>
+                        <input type="radio" id="pepsi" name="goods" value="pepsi">
+                        <label for="pepsi">Пепсі</label>
+                    </div>
+                </div>
+                <input type="button" value="Додати" id="add">
+                <div class="basket"></div>
+                <input type="button" value="Купити" id="pay">
+            </form>
+        </div>
+        <div class="box">
+            <div class="score">
+            </div>
+        </div>
+    </main>
+    <script src="test.js" type="module"></script>
+    <script src="main.js" type="module"></script>
+</body>
+
+</html>
